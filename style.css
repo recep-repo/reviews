@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    padding: 5rem;
+    height: 100vh;
+    background-color: azure;
+}
+
+.header h1{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box{
+    border: 1px solid red;
+    height: 50vh;
+    width: 40vw;
+    text-align: center;
+    padding: 1rem;
+
+}
